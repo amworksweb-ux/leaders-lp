@@ -1,0 +1,195 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    }
+    
+    html{
+    
+    scroll-behavior:smooth;
+    
+    }
+    
+    body{
+    
+    background:#fff;
+    
+    font-family:"Outfit","Noto Sans JP",sans-serif;
+    
+    overflow-x:hidden;
+    
+    color:#111;
+    
+    }
+    
+    /* 背景 */
+    
+    .bg{
+    
+    position:fixed;
+    
+    border-radius:50%;
+    
+    filter:blur(100px);
+    
+    z-index:-1;
+    
+    }
+    
+    .bg1{
+    
+    width:260px;
+    height:260px;
+    
+    background:#7fd9ff;
+    
+    top:-80px;
+    right:-80px;
+    
+    }
+    
+    .bg2{
+    
+    width:260px;
+    height:260px;
+    
+    background:#dff5ff;
+    
+    bottom:-120px;
+    left:-80px;
+    
+    }
+    
+    /* Hero */
+    
+    .hero{
+    
+    height:100vh;
+    
+    padding:80px 30px 130px;
+    
+    display:flex;
+    
+    flex-direction:column;
+    
+    justify-content:center;
+    
+    }
+    
+    .logo{
+    
+    width:180px;
+    
+    margin-bottom:50px;
+    
+    }
+    
+    .eyebrow{
+    
+    font-size:12px;
+    
+    letter-spacing:5px;
+    
+    color:#38bdf8;
+    
+    margin-bottom:10px;
+    
+    font-weight:600;
+    
+    }
+    
+    h1{
+    
+    font-size:46px;
+    
+    line-height:1.05;
+    
+    font-weight:700;
+    
+    margin-bottom:25px;
+    
+    }
+    
+    .description{
+    
+    font-size:15px;
+    
+    line-height:1.8;
+    
+    color:#666;
+    
+    margin-bottom:40px;
+    
+    }
+    
+    .button{
+    
+    display:inline-flex;
+    
+    align-items:center;
+    
+    justify-content:center;
+    
+    width:170px;
+    
+    height:52px;
+    
+    border-radius:999px;
+    
+    background:linear-gradient(90deg,#31b8ff,#0f75ff);
+    
+    color:white;
+    
+    text-decoration:none;
+    
+    font-weight:600;
+    
+    box-shadow:0 15px 35px rgba(0,123,255,.25);
+    
+    }
+    
+    /* Bottom Menu */
+    
+    .bottom-nav{
+    
+    position:fixed;
+    
+    left:15px;
+    
+    right:15px;
+    
+    bottom:20px;
+    
+    height:65px;
+    
+    background:rgba(255,255,255,.75);
+    
+    backdrop-filter:blur(18px);
+    
+    border-radius:999px;
+    
+    display:flex;
+    
+    justify-content:space-around;
+    
+    align-items:center;
+    
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    
+    }
+    
+    .bottom-nav a{
+    
+    text-decoration:none;
+    
+    color:#0f172a;
+    
+    font-size:11px;
+    
+    font-weight:600;
+    
+    letter-spacing:1px;
+    
+    }
